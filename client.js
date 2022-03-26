@@ -12,11 +12,17 @@ const connect = function () {
   
    conn.on("connect", (data) => {
       console.log("Server says: "data" );
-   
-});
+                    
+    });
+                  
+    conn.on('connect', () => {
+     console.log("Connected to game server");
+        
+    });
   
     conn.on("connect", (name) => {
       console.log("Name: PF");
+      
    });
 
   return conn;
