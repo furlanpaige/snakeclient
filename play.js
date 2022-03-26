@@ -18,6 +18,9 @@ const connect = function () {
   return conn;
 };
 
+const { connect } = require("./client");
+const { setupInput } = require("./input");
+
 console.log("Connecting ...");
 connect();
 
@@ -38,4 +41,3 @@ const handleUserInput = function (data) {
 };
 
 setupInput();
-
