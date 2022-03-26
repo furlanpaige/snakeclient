@@ -4,4 +4,4 @@ Snake game is a very popular video game. It is a video game concept where the pl
 
 This is simply a multiplayer take on the genre.
 
-Disclamer: **Errors may be present**
+Disclamer: **Errors may be present as prokect is intended for learning purposes**
